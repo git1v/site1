@@ -178,7 +178,7 @@ figure {
 				float: left;
 			}
 			i {
-				font-size: 20px;/*17*/
+				font-size: 17px;
 				line-height: 0;
 				position: relative;
 				top: 1px;
@@ -250,7 +250,7 @@ figure {
 		h2{
 			color: $brand-white;
 			text-transform: uppercase;
-			font-size: 80px;
+			font-size: 80px;/*80*/
 			font-weight: 300;
 			margin-bottom: 10px;
 			@media screen and (max-width: $screen-sm) {
@@ -1005,7 +1005,7 @@ h3.heading-section{
 	@extend #fh5co-blog-section;
 	h2{
 		color: rgba(255,255,255,1);
-		font-size: 60px;
+		font-size:100%; /* 60px;*/
 		text-transform: uppercase;
 		font-weight: 300;
 		@media screen and (max-width: $screen-sm) {
