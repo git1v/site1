@@ -82,6 +82,9 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 150%
 }
 
+.table-price{
+    margin: 80px;
+}
 
 /* スマホ版 */
 @media screen and (max-width: 768px) {
